@@ -1,0 +1,122 @@
+/* Estilos login */
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#FA8072, #2471a3, #2471a3);
+}
+
+.contenedor {
+    margin: 100px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+.contenedor h2 {
+    text-align: center;
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFA07A;
+}
+
+.contenedor .elemento label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contenedor .elemento input {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.contenedor button {
+    width: 100%;
+    background-color: #ec7063;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.contenedor button:hover {
+    background-color: whitesmoke;
+    color: hsla(0, 0%, 0%, 0.705);
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.h2tabla{
+    color: whitesmoke;
+    
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #ff5733; 
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.bloqueado {
+    background-color: #fd9f8b; /* Fondo rojo solicitado */
+}
+
+.desbloqueado {
+    background-color: #cef8c6; /* Fondo verde solicitado */
+}
+
+.btn-icon {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-icon:hover {
+    transform: scale(1.2);
+}
+
+.btn-bloquear {
+    color: red;
+}
+
+.btn-desbloquear {
+    color: green;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Usuario</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+    <h2 class="h2tabla">Lista Usuario</h2>
+    
+    <div class="Buscador_persona">
+        <input type="text " id="buscar" placeholder="Buscar Usuario">
+        <button id="btnBuscar">Buscar</button>
+    </div>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Usuario</th>
+                <th>Bloqueado</th>
+                <th>Apellido</th>
+                <th>Nombre</th>
+                <th>Bloquear</th>
+                <th>Desbloquear</th>
+            </tr>
+        </thead>
+        <tbody id="tablaUsuarios">
+            <!-- usuarios -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
